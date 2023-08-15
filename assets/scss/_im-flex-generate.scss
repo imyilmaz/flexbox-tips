@@ -1,0 +1,13 @@
+@mixin imFlexGenerate($flexible, $media, $screen){
+    @media (max-width:#{$media}px){
+        @for $i from 1 through $flexible{
+            .im-#{$screen}-#{$i}{
+                flex: 0 0 calc(100% / $flexible * $i );
+                padding-left: $contentPadding;
+                padding-right: $contentPadding;
+            }
+        }
+    }
+}
+
+@include imFlexGenerate(12,1920,md);

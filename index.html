@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İbrahim Mesut YILMAZ</title>
+    <link rel="stylesheet" href="assets/scss/global.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="im-md-6">
+                    <div class="flex-container">
+                        <h1>
+                            <span><span>F</span></span>
+                            <span><span>L</span></span>
+                            <span><span>E</span></span>
+                            <span><span>X</span></span>
+                            <span><span>&nbsp;</span></span>
+                            <span><span>C</span></span>
+                            <span><span>O</span></span>
+                            <span><span>N</span></span>
+                            <span><span>T</span></span>
+                            <span><span>A</span></span>
+                            <span><span>I</span></span>
+                            <span><span>N</span></span>
+                            <span><span>E</span></span>
+                            <span><span>R</span></span>
+                            <span><span>&nbsp;</span></span>
+                            <span><span>Ö</span></span>
+                            <span><span>Z</span></span>
+                            <span><span>E</span></span>
+                            <span><span>L</span></span>
+                            <span><span>L</span></span>
+                            <span><span>İ</span></span>
+                            <span><span>K</span></span>
+                            <span><span>L</span></span>
+                            <span><span>E</span></span>
+                            <span><span>R</span></span>
+                            <span><span>İ</span></span>
+                        </h1>
+                    </div><!-- flex-container -->
+                    <div class="flex-direction">
+                        <h2>FLEX-DIRECTION <span> ( Flex container özelliği )</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-direction-1" id="flex-direction-row" name="flex-direction-content">
+                            <input type="radio" class="flex-direction-2" id="flex-direction-row-reverse" name="flex-direction-content">
+                            <input type="radio" class="flex-direction-3" id="flex-direction-column" name="flex-direction-content">
+                            <input type="radio" class="flex-direction-4" id="flex-direction-column-reverse" name="flex-direction-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-direction-row">row</label>
+                                <label class="radio-label" for="flex-direction-row-reverse">row-reverse</label>
+                                <label class="radio-label" for="flex-direction-column">column</label>
+                                <label class="radio-label" for="flex-direction-column-reverse">column-reverse</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #16a085;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #d35400;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #f1c40f;">
+                                    <span>5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- flex-direction -->
+                    <div class="flex-wrap">
+                        <h2>FLEX-WRAP <span> ( Flex container özelliği )</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-wrap-1" id="flex-wrap-nowrap" name="flex-wrap-content">
+                            <input type="radio" class="flex-wrap-2" id="flex-wrap-wrap" name="flex-wrap-content">
+                            <input type="radio" class="flex-wrap-3" id="flex-wrap-wrap-reverse" name="flex-wrap-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-wrap-nowrap">nowrap</label>
+                                <label class="radio-label" for="flex-wrap-wrap">wrap</label>
+                                <label class="radio-label" for="flex-wrap-wrap-reverse">wrap-reverse</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #16a085;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #d35400;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #f1c40f;">
+                                    <span>5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- flex-wrap -->
+                    <div class="align-items">
+                        <h2>ALIGN-ITEMS <span> ( Flex container özelliği )</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" class="flex-align-items-1" id="flex-align-items-flex-start" name="flex-align-items-content">
+                            <input type="radio" class="flex-align-items-2" id="flex-align-items-flex-end" name="flex-align-items-content">
+                            <input type="radio" class="flex-align-items-3" id="flex-align-items-center" name="flex-align-items-content">
+                            <input type="radio" class="flex-align-items-4" id="flex-align-items-baseline" name="flex-align-items-content">
+                            <input type="radio" checked class="flex-align-items-5" id="flex-align-items-stretch" name="flex-align-items-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-align-items-flex-start">flex-start</label>
+                                <label class="radio-label" for="flex-align-items-flex-end">flex-end</label>
+                                <label class="radio-label" for="flex-align-items-center">center</label>
+                                <label class="radio-label" for="flex-align-items-baseline">baseline</label>
+                                <label class="radio-label" for="flex-align-items-stretch">stretch</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #16a085;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #d35400;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #f1c40f;">
+                                    <span>5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- align-items -->
+                    <div class="justify-content">
+                        <h2>JUSTIFY-CONTENT <span> ( Flex container özelliği )</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-justify-content-1" id="flex-justify-content-flex-start" name="flex-justify-content-content">
+                            <input type="radio" class="flex-justify-content-2" id="flex-justify-content-flex-end" name="flex-justify-content-content">
+                            <input type="radio" class="flex-justify-content-3" id="flex-justify-content-center" name="flex-justify-content-content">
+                            <input type="radio" class="flex-justify-content-4" id="flex-justify-content-space-between" name="flex-justify-content-content">
+                            <input type="radio" class="flex-justify-content-5" id="flex-justify-content-space-around" name="flex-justify-content-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-justify-content-flex-start">flex-start</label>
+                                <label class="radio-label" for="flex-justify-content-flex-end">flex-end</label>
+                                <label class="radio-label" for="flex-justify-content-center">center</label>
+                                <label class="radio-label" for="flex-justify-content-space-between">space-between</label>
+                                <label class="radio-label" for="flex-justify-content-space-around">space-around</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #16a085;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #d35400;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #f1c40f;">
+                                    <span>5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- justify-content -->
+                    <div class="align-content">
+                        <h2>ALIGN-CONTENT <span> ( Flex container özelliği )</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" class="flex-align-content-1" id="flex-align-content-flex-start" name="flex-align-content-content">
+                            <input type="radio" class="flex-align-content-2" id="flex-align-content-flex-end" name="flex-align-content-content">
+                            <input type="radio" class="flex-align-content-3" id="flex-align-content-center" name="flex-align-content-content">
+                            <input type="radio" class="flex-align-content-4" id="flex-align-content-space-between" name="flex-align-content-content">
+                            <input type="radio" class="flex-align-content-5" id="flex-align-content-space-around" name="flex-align-content-content">
+                            <input type="radio" checked class="flex-align-content-6" id="flex-align-content-stretch" name="flex-align-content-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-align-content-flex-start">flex-start</label>
+                                <label class="radio-label" for="flex-align-content-flex-end">flex-end</label>
+                                <label class="radio-label" for="flex-align-content-center">center</label>
+                                <label class="radio-label" for="flex-align-content-space-between">space-between</label>
+                                <label class="radio-label" for="flex-align-content-space-around">space-around</label>
+                                <label class="radio-label" for="flex-align-content-stretch">stretch</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #1abc9c;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2ecc71;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #3498db;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #9b59b6;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #34495e;">
+                                    <span>5</span>
+                                </div>
+                                <div class="flex-item" style="background: #16a085;">
+                                    <span>6</span>
+                                </div>
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>7</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>8</span>
+                                </div>
+                                <div class="flex-item" style="background: #8e44ad;">
+                                    <span>9</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>10</span>
+                                </div>
+                                <div class="flex-item" style="background: #f1c40f;">
+                                    <span>11</span>
+                                </div>
+                                <div class="flex-item" style="background: #e67e22;">
+                                    <span>12</span>
+                                </div>
+                                <div class="flex-item" style="background: #e74c3c;">
+                                    <span>13</span>
+                                </div>
+                                <div class="flex-item" style="background: #ecf0f1;">
+                                    <span>14</span>
+                                </div>
+                                <div class="flex-item" style="background: #95a5a6;">
+                                    <span>15</span>
+                                </div>
+                                <div class="flex-item" style="background: #f39c12;">
+                                    <span>16</span>
+                                </div>
+                                <div class="flex-item" style="background: #d35400;">
+                                    <span>17</span>
+                                </div>
+                                <div class="flex-item" style="background: #c0392b;">
+                                    <span>18</span>
+                                </div>
+                                <div class="flex-item" style="background: #bdc3c7;">
+                                    <span>19</span>
+                                </div>
+                                <div class="flex-item" style="background: #7f8c8d;">
+                                    <span>20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- align-content -->
+                </div>
+                <div class="im-md-6">
+                    <div class="flex-items">
+                        <h1>
+                            <span><span>F</span></span>
+                            <span><span>L</span></span>
+                            <span><span>E</span></span>
+                            <span><span>X</span></span>
+                            <span><span>&nbsp;</span></span>
+                            <span><span>I</span></span>
+                            <span><span>T</span></span>
+                            <span><span>E</span></span>
+                            <span><span>M</span></span>
+                            <span><span>S</span></span>
+                            <span><span>&nbsp;</span></span>
+                            <span><span>Ö</span></span>
+                            <span><span>Z</span></span>
+                            <span><span>E</span></span>
+                            <span><span>L</span></span>
+                            <span><span>L</span></span>
+                            <span><span>İ</span></span>
+                            <span><span>K</span></span>
+                            <span><span>L</span></span>
+                            <span><span>E</span></span>
+                            <span><span>R</span></span>
+                            <span><span>İ</span></span>
+                        </h1>
+                    </div>
+                    <div class="align-self">
+                        <h2>ALIGN-SELF <span> ( Flex item özelliği )</span></h2>
+                        <h2><span>Daha iyi anlaşılması için bu özellik sadece 3. elemana verilmiştir.</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-align-self-1" id="flex-align-self-auto" name="flex-align-self-content">
+                            <input type="radio" class="flex-align-self-2" id="flex-align-self-flex-start" name="flex-align-self-content">
+                            <input type="radio" class="flex-align-self-3" id="flex-align-self-flex-end" name="flex-align-self-content">
+                            <input type="radio" class="flex-align-self-4" id="flex-align-self-center" name="flex-align-self-content">
+                            <input type="radio" class="flex-align-self-5" id="flex-align-self-baseline" name="flex-align-self-content">
+                            <input type="radio" class="flex-align-self-6" id="flex-align-self-stretch" name="flex-align-self-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-align-self-auto">auto</label>
+                                <label class="radio-label" for="flex-align-self-flex-start">flex-start</label>
+                                <label class="radio-label" for="flex-align-self-flex-end">flex-end</label>
+                                <label class="radio-label" for="flex-align-self-center">center</label>
+                                <label class="radio-label" for="flex-align-self-baseline">baseline</label>
+                                <label class="radio-label" for="flex-align-self-stretch">stretch</label>
+                            </div>
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>2</span>
+                                </div>
+                                <div class="flex-item" style="background: #95a5a6;">
+                                    <span>3</span>
+                                </div>
+                                <div class="flex-item" style="background: #f39c12;">
+                                    <span>4</span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>5</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- align-self -->
+                    <div class="flex-grow">
+                        <h2>FLEX-GROW <span> ( Flex item özelliği )</span></h2>
+                        <h2><span>Daha iyi anlaşılması için bu özellik sadece 1. elemana verilmiştir.</span></h2>
+                        <h2><span>Grow olan ve ya grow'u yüksek olan elemanın genişliği her zaman daha fazla olur.</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-grow-1" id="flex-grow-1" name="flex-grow-content">
+                            <input type="radio" class="flex-grow-2" id="flex-grow-2" name="flex-grow-content">
+                            <input type="radio" class="flex-grow-3" id="flex-grow-3" name="flex-grow-content">
+                            <input type="radio" class="flex-grow-4" id="flex-grow-4" name="flex-grow-content">
+                            <input type="radio" class="flex-grow-5" id="flex-grow-5" name="flex-grow-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-grow-1">Grow 1</label>
+                                <label class="radio-label" for="flex-grow-2">Grow 2</label>
+                                <label class="radio-label" for="flex-grow-3">Grow 3</label>
+                                <label class="radio-label" for="flex-grow-4">Grow 4</label>
+                                <label class="radio-label" for="flex-grow-5">Grow 5</label>
+                            </div> 
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>2
+                                        <span>flex-grow:2;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #95a5a6;">
+                                    <span>3
+                                        <span>flex-grow:3;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #f39c12;">
+                                    <span>4
+                                        <span>flex-grow:4;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>5
+                                        <span>flex-grow:5;</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- flex-grow -->
+                    <div class="flex-shrink">
+                        <h2>FLEX-SHRINK <span> ( Flex item özelliği )</span></h2>
+                        <h2><span>Daha iyi anlaşılması için bu özellik sadece 1. elemana verilmiştir.</span></h2>
+                        <h2><span>Shrink olan ve ya shrink'i yüksek olan elemanın genişliği her zaman daha az olur. Shrink olmayan yada düşük shrink olan elemanlarında genişliğiniz fazla olması gerekir. yoksa çalışmaz. Bu yüzden 5 eleman olan olana "25%" genişlik verilmiştir.</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="flex-shrink-1" id="flex-shrink-1" name="flex-shrink-content">
+                            <input type="radio" class="flex-shrink-2" id="flex-shrink-2" name="flex-shrink-content">
+                            <input type="radio" class="flex-shrink-3" id="flex-shrink-3" name="flex-shrink-content">
+                            <input type="radio" class="flex-shrink-4" id="flex-shrink-4" name="flex-shrink-content">
+                            <input type="radio" class="flex-shrink-5" id="flex-shrink-5" name="flex-shrink-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="flex-shrink-1">Shrink 1</label>
+                                <label class="radio-label" for="flex-shrink-2">Shrink 2</label>
+                                <label class="radio-label" for="flex-shrink-3">Shrink 3</label>
+                                <label class="radio-label" for="flex-shrink-4">Shrink 4</label>
+                                <label class="radio-label" for="flex-shrink-5">Shrink 5</label>
+                            </div> 
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>2
+                                        <span>flex-shrink:2;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #95a5a6;">
+                                    <span>3
+                                        <span>flex-shrink:3;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #f39c12;">
+                                    <span>4
+                                        <span>flex-shrink:4;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>5
+                                        <span>flex-shrink:5;</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- flex-shrink -->
+                    <div class="flex">
+                        <h2>FLEX <span> ( Flex item özelliği )</span></h2>
+                        <h2><span>Burada tüm özellikler seçilebilir. Dikkat etmeniz gereken "<b>flex-basis</b>" var ise diğer özellikler etkisizdir.</span></h2>
+                        <div class="flex-content">
+                            <input type="checkbox" checked class="flex-1" id="flex-1">
+                            <input type="checkbox" class="flex-2" id="flex-2">
+                            <input type="checkbox" class="flex-3" id="flex-3">
+                            <input type="checkbox" class="flex-4" id="flex-4">
+                            <input type="checkbox" class="flex-5" id="flex-5">
+                            <input type="checkbox" class="flex-6" id="flex-6">
+                            <input type="checkbox" checked class="flex-7" id="flex-7">
+                            <input type="checkbox" class="flex-8" id="flex-8">
+                            <input type="checkbox" class="flex-9" id="flex-9">
+                            <input type="checkbox" class="flex-10" id="flex-10">
+                            <input type="checkbox" class="flex-11" id="flex-11">
+                            <input type="checkbox" class="flex-12" id="flex-12">
+                            <div class="label-set">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="im-md-6"> 
+                                            <h3>Eleman 1</h3>
+                                            <div class="label-group">
+                                                <label class="radio-label label-basis-1" for="flex-1">flex-basis:50%;</label>
+                                                <label class="radio-label label-basis-2" for="flex-2">flex-basis:25%;</label>
+                                                <label class="radio-label label-basis-3" for="flex-3">flex-grow: 5;</label>
+                                                <label class="radio-label label-basis-4" for="flex-4">flex-grow: 2;</label>
+                                                <label class="radio-label label-basis-5" for="flex-5">flex-shrink: 3;</label>
+                                                <label class="radio-label label-basis-6" for="flex-6">flex-shrink: 7;</label>
+                                            </div>
+                                        </div>
+                                        <div class="im-md-6">
+                                            <h3>Eleman 2</h3>
+                                            <div class="label-group">
+                                                <label class="radio-label label-basis-7" for="flex-7">flex-basis:50%;</label>
+                                                <label class="radio-label label-basis-8" for="flex-8">flex-basis:75%;</label>
+                                                <label class="radio-label label-basis-9" for="flex-9">flex-grow: 9;</label>
+                                                <label class="radio-label label-basis-10" for="flex-10">flex-grow: 1;</label>
+                                                <label class="radio-label label-basis-11" for="flex-11">flex-shrink: 6;</label>
+                                                <label class="radio-label label-basis-12" for="flex-12">flex-shrink: 4;</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- flex -->
+                    <div class="order">
+                        <h2>ORDER <span> ( Flex item özelliği )</span></h2>
+                        <h2><span>Daha iyi anlaşılması için bu özellik sadece 1. elemana verilmiştir.</span></h2>
+                        <h2><span>Order mevcut sırayı değerine göre değiştirir. Yüksek değer son sıraya, düşük değer ilk sıraya götürür.</span></h2>
+                        <div class="flex-content">
+                            <input type="radio" checked class="order-1" id="order-1" name="order-content">
+                            <input type="radio" class="order-2" id="order-2" name="order-content">
+                            <input type="radio" class="order-3" id="order-3" name="order-content">
+                            <input type="radio" class="order-4" id="order-4" name="order-content">
+                            <input type="radio" class="order-5" id="order-5" name="order-content">
+                            <div class="label-set">
+                                <label class="radio-label" for="order-1">Elemean 1</label>
+                                <label class="radio-label" for="order-2">Elemean 2</label>
+                                <label class="radio-label" for="order-3">Elemean 3</label>
+                                <label class="radio-label" for="order-4">Elemean 4</label>
+                                <label class="radio-label" for="order-5">Elemean 5</label>
+                            </div> 
+                            <div class="flex-items">
+                                <div class="flex-item" style="background: #27ae60;">
+                                    <span>1</span>
+                                </div>
+                                <div class="flex-item" style="background: #2980b9;">
+                                    <span>2
+                                        <span>order:2;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #95a5a6;">
+                                    <span>3
+                                        <span>order:3;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #f39c12;">
+                                    <span>4
+                                        <span>order:4;</span>
+                                    </span>
+                                </div>
+                                <div class="flex-item" style="background: #2c3e50;">
+                                    <span>5
+                                        <span>order:5;</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- order -->
+                </div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
