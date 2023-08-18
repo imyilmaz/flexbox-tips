@@ -16,6 +16,23 @@ body{
     50%{  color: var(--color-head-active); }
     100%{  color: var(--color-head); }
 }
+@keyframes alert {
+    0% {
+        color: #19dcea;
+    }
+    25% {
+        color: #b22cff;
+    }
+    50% {
+        color: #ea2222;
+    }
+    75% {
+        color: #f5be10;
+    }
+    100% {
+        color: #3bd80d;
+    }
+}
 h1{  
     font-size: 2rem; 
     color: var(--color-head);
@@ -30,7 +47,7 @@ h1{
     } 
     @for $h from 1 through 26{
         >span:nth-child(#{$h}){ animation: flexicale 1s #{$h}00ms ease-in-out both;
-            @for $g from 1 through 26{ 
+            @for $g from 1 through 26{  
                 span:nth-child(#{$g}){ animation: flexibon 1.75s #{$h}00ms ease-in-out infinite; }
             }
         }
@@ -41,6 +58,7 @@ h2{
     span{ 
         font-size: .75rem;
         font-weight: normal;
+        &.alert{ animation: alert 8s linear infinite alternate both; }
     }
 }
 h3{ 
